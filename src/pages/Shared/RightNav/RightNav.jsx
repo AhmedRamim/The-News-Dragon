@@ -19,8 +19,13 @@ const RightNav = () => {
                 </ListGroup>
             </div>
             <QZone></QZone>
-            <div>
+            <div className='position-relative'>
                 <img className='w-100' src={bg} alt="" />
+                <div  className='text-white text-center position-absolute   bottom-50 px-5 mt-5 pt-5'>
+                    <h4 className=''>Create an Amazing Newspaper</h4>
+                    <p className=''>Discover thousands of options, easy to customize layouts, one-click to import demo and much more.</p>
+                    <button className="btn mt-4 btn-danger">Learn More</button>
+                </div>
             </div>
         </div>
     );
