@@ -5,11 +5,13 @@ import { Col, Container, Row } from 'react-bootstrap';
 import LeftNav from '../pages/Shared/LeftNav/LeftNav';
 import RightNav from '../pages/Shared/RightNav/RightNav';
 import { Outlet } from 'react-router-dom';
+import NavigationVar from '../pages/Shared/NavigationVar/NavigationVar';
 
 const NewsLayouts = () => {
     return (
         <div>
             <Header></Header>
+            <NavigationVar></NavigationVar>
             <Container>
                 
                 <Row>

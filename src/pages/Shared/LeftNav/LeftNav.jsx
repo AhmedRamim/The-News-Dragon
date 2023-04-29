@@ -22,7 +22,7 @@ const LeftNav = () => {
             <h3>All Categories</h3>
             <div className='ps-4 py-3'>
                 {
-                    categories && categories.map(news => <h4 className='py-2' key={news.id}><Link to={`categories/${news.id}`} className='text-secondary text-decoration-none'>{news.name}</Link></h4>)
+                    categories && categories.map(news => <h4 className='py-2' key={news.id}><Link to={`/categories/${news.id}`} className='text-secondary text-decoration-none'>{news.name}</Link></h4>)
                 }
             </div>
             <Row xs={1} md={1} lg={1} className="g-4 mt-4">
